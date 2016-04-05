@@ -26,6 +26,7 @@
     <script type="text/javascript" src="vendor/chops/chops.js"></script>
     <script type="text/javascript" src="vendor/cropper/cropper.js"></script>
     <script type="text/javascript" src="vendor/password/password.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 <section class="screen current"></section>
@@ -185,51 +186,47 @@
                     <form class=" p-r-3 pos-relative"
                           action="#" method="post">
 
-                    <input type="hidden" name="_csrf_token" value="{{ csrf_token }}"/>
+                        <input type="hidden" name="_csrf_token" value="{{ csrf_token }}"/>
 
-                    <div class="row">
-                        <div class="col-xs-3 p-r-0 text-xs-right">
-                            <label for="mail">Логин:</label>
+                        <div class="row">
+                            <div class="col-xs-3 p-r-0 text-xs-right">
+                                <label for="mail">Логин:</label>
+                            </div>
+                            <div class="col-xs-8">
+                                <input class="form-control" type="text" id="username" name="_username"
+                                       value="" required="required"
+                                       placeholder="name@example.com"/>
+
+                            </div>
                         </div>
-                        <div class="col-xs-8">
-                            <input class="form-control" type="text" id="username" name="_username"
-                                   value="" required="required"
-                                   placeholder="name@example.com"/>
+                        <div class="row p-t-1">
+                            <div class="col-xs-3 p-r-0 text-xs-right"><label
+                                    for="password">Пароль:</label></div>
+                            <div class="col-xs-8">
+                                <input class="form-control" type="password" id="password"
+                                       name="_password" required="required" placeholder="******"/>
 
-                        </div>
-                    </div>
-                    <div class="row p-t-1">
-                        <div class="col-xs-3 p-r-0 text-xs-right"><label
-                                for="password">Пароль:</label></div>
-                        <div class="col-xs-8">
-                            <input class="form-control" type="password" id="password"
-                                   name="_password" required="required" placeholder="******"/>
+                            </div>
 
                         </div>
 
-                    </div>
-
-                    <div class="row p-t-1">
-                        <div class="col-xs-3 p-r-0 text-xs-right">
-                            <input type="checkbox" id="remember_me" name="_remember_me" value="on"/>
+                        <div class="row p-t-1">
+                            <div class="col-xs-3 p-r-0 text-xs-right">
+                                <input type="checkbox" id="remember_me" name="_remember_me" value="on"/>
+                            </div>
+                            <div class="col-xs-8">
+                                <label for="remember_me">Запомнить меня</label>
+                            </div>
                         </div>
-                        <div class="col-xs-8">
-                            <label for="remember_me">Запомнить меня</label>
-                        </div>
-                    </div>
 
-                    <button type="submit" id="_submit" name="_submit"
-                            class="specbutton bg-success btn"><i
-                            class="fa fa-arrow-right white"></i></button>
+                        <button type="submit" id="_submit" name="_submit"
+                                class="specbutton bg-success btn"><i
+                                class="fa fa-arrow-right white"></i></button>
                     </form>
 
                 </div>
             </div>
         </div>
-
-
-
-
 
 
         <!--Навигация цветовая-->
@@ -262,14 +259,78 @@
 
 <script id="basics" type="text/html">
     <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>
-
-        <h1>Basic</h1>
+        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Домой</a>
 
     </header>
 
-    <section class="body with-head with-foot">
+    <section class="body with-head with-foot section_2">
+        <div class="container-fluid">
+            <div class="row">
 
+                <div id="heros">
+
+                    <h1>Узнайте<br><span>Как мы работаем </span></h1>
+
+                    <a class="arow_down scroll" href="#item01">
+                        <h1><i class="fa white fa-angle-down"></i></h1>
+                    </a>
+                </div> <!-- / hero -->
+
+
+
+                <div class="content">
+
+                    <h1 id="item01">Вы принимаете решение Сотрудничать с нами</h1>
+
+
+                    <p>В течении двух последних лет мы разрабатывали систему электронной отчетности через интернет,
+                        которая будет учитывать все особенности и нюансы в обслуживании отдельной компании. </p>
+
+                    <p> Наша цель: максимальное увеличение надежности работы системы и сто процентная гарантия
+                        своевременной сдачи всех необходимых отчетов в государственные органы КР. И мы достигли этой
+                        цели!
+                    </p>
+
+                    <h1 id="item02">Мы заключаем Договор</h1>
+
+
+                    <p>На стадии подписания договора о сотрудничестве, мы вносим в договор корректировки в зависимо-сти
+                        от уникальных особенностей вашей компании. Учитываем все до малейших деталей, чтобы наше
+                        обоюдное сотрудничество было максимально комфортным.
+                    </p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, doloribus, nemo excepturi
+
+                    <h1 id="item03">Вы загружаете отчеты <br> в систему «Е - репорт»</h1>
+
+                    <p>
+                        После подписаниям договора вы становитесь частью команды, которая состоит из 400 компаний. И
+                        именно для вас открываются двери в сервис и комфорт, которого еще не было на территории КР. Все
+                        что вам нужно сделать - правильно заполнить необходимую форму в вашем Личном кабинете в системе
+                        «Е-репорт» и нажать кнопку отправить.
+                    </p>
+
+                    <h1 id="item04">Всю Остальную Работу <br> делаем мы!</h1>
+
+                    <p>
+                        После того как отчет загружен и отправлен, ваш персональный аккаунт-менеджер проследит за тем,
+                        чтобы он попал в нужную инстанцию и был принят без каких-либо отсрочек и проблем.
+
+                    </p>
+
+
+                </div> <!-- / content -->
+
+
+                <a class="arow_top scroll" href="#heros">
+                   <i class="fa fa-angle-down"></i>
+                </a>
+
+
+
+
+            </div>
+        </div>
 
     </section>
 </script>
