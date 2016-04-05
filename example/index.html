@@ -512,102 +512,102 @@
 
 <script id="transition" type="text/html">
     <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>
+        <a class="head-btn btn btn-default pull-left" data-do="aside" data-on="click" href="#aside-left">
+            <i class="fa fa-bars"> </i>
+        </a>
 
-        <h1 class="title">Demo - Transitions</h1>
+        <a
+                data-do="go-forward"
+                data-on="click"
+                href="#home">
+            Forward
+        </a>
+
+        <a
+                data-do="go-back"
+                data-on="click"
+                href="#home">
+            Back
+        </a>
+
+
     </header>
 
-    <section class="body with-head with-foot">
-        <nav class="nav-list">
-            <a data-do="go-forward" data-on="click" href="#transition">Forward <i class="fa fa-chevron-right"></i></a>
+    <section class="body with-head with-foot section-section4">
+        <!--<nav class="nav-list">-->
+            <!--<a data-do="go-forward" data-on="click" href="#transition">Forward <i class="fa fa-chevron-right"></i></a>-->
 
-            <a data-do="go-back" data-on="click" href="#transition">Back <i class="fa fa-chevron-right"></i></a>
+            <!--<a data-do="go-back" data-on="click" href="#transition">Back <i class="fa fa-chevron-right"></i></a>-->
 
-            <a data-do="go-previous" data-on="click" href="#transition">Previous <i class="fa fa-chevron-right"></i></a>
+            <!--<a data-do="go-previous" data-on="click" href="#transition">Previous <i class="fa fa-chevron-right"></i></a>-->
 
-            <a data-do="go-next" data-on="click" href="#transition">Next <i class="fa fa-chevron-right"></i></a>
+            <!--<a data-do="go-next" data-on="click" href="#transition">Next <i class="fa fa-chevron-right"></i></a>-->
 
-            <a data-do="go-fade" data-on="click" href="#home">Fade <i class="fa fa-chevron-right"></i></a>
+            <!--<a data-do="go-fade" data-on="click" href="#home">Fade <i class="fa fa-chevron-right"></i></a>-->
 
-            <a data-do="go-forward" data-on="click" href="/remote">Remote <i class="fa fa-chevron-right"></i></a>
-            <a data-do="go-forward" data-on="click" href="/acquire">With Acquire <i class="fa fa-chevron-right"></i></a>
-        </nav>
+            <!--<a data-do="go-forward" data-on="click" href="/remote">Remote <i class="fa fa-chevron-right"></i></a>-->
+            <!--<a data-do="go-forward" data-on="click" href="/acquire">With Acquire <i class="fa fa-chevron-right"></i></a>-->
+        <!--</nav>-->
+<div class="row ">
+    <div class="col-xs-12 col-md-6 p-r-0 pos-relative">
+        <h1 class="white kompany text-nowrap ">О Компании</h1>
 
-        <h4 class="pad upper">Code</h4>
-			
-<pre><code class="language-html" data-lang="html">&lt;a
-    data-do="go-forward"
-    data-on="click"
-    href="#transition"&gt;
-    Forward
-    &lt;/a&gt;
+    </div>
+    <div class="col-xs-12 col-md-6 p-l-0 white">
+        <div class="col-xs-12 p-a-2">
+            <p>
+                «Inteco Systems» - это команда профессионалов, которые на протяжении вот уже нескольких лет успешно
+                занимаются представительством интересов клиентов в любых государственных органах Кыргызской
+                Республики.
+            </p>
 
-    &lt;a
-    data-do="go-back"
-    data-on="click"
-    href="#transition"&gt;
-    Back
-    &lt;/a&gt;
+            <p>
+                Среди наших сотрудников и партнеров профессиональные юристы, адвокаты, аудиторы, налоговые
+                консультанты, специалисты в области статистики.
+            </p>
 
-    &lt;a
-    data-do="go-previous"
-    data-on="click"
-    href="#transition"&gt;
-    Previous
-    &lt;/a&gt;
+            <p>
+                Ежедневно мы помогаем нашим клиентам в решении всех, даже самых острых вопросов, которые неминуемо
+                возникают при взаимодействии с государственными органами КР:
+            </p>
 
-    &lt;a
-    data-do="go-next"
-    data-on="click"
-    href="#transition"&gt;
-    Next
-    &lt;/a&gt;
+            <ul>
+                <li>консультации
+                </li>
+                <li>сдача отчетности
+                </li>
+                <li>
+                    получение лицензий
+                </li>
+                <li>
+                    налоговое представительство
+                </li>
+                <li>помощь при решении конфликтных ситуаций</li>
+                <li>минимизация штрафов, пеней и других санкций</li>
+                <li>и многое другое.</li>
 
-    &lt;a
-    data-do="go-fade"
-    data-on="click"
-    href="#transition"&gt;
-    Fade
-    &lt;/a&gt;
+            </ul>
+            <p>Для нас нет нерешаемых вопросов!</p>
+            <p>«Inteco Systems» - С нами Вы полюбите сдавать отчеты!</p>
 
-    &lt;a
-    data-do="go-forward"
-    data-on="click"
-    href="/remote"&gt;
-    Remote
-    &lt;/a&gt;
+            <h6>Связаться с нами Вы можете по адресу:</h6>
+            <p class="m-b-05">Кыргызстан, г. Бишкек ул. Киевская 107 </p>
+            <p class="m-b-05">Тел.: +996 (312) 613851,  +996 (312) 610620</p>
+            <p class="m-b-05"><b>по электронной почте:</b></p>
+            <p class="m-b-05"> Общий отдел <b>info@ereport.kg</b></p>
+            <p class="m-b-05">Отдел продаж <b>sales@ereport.kg</b> </p>
+            <p class="m-b-05">Финансовый отдел <b>fin@ereport.kg</b></p>
 
-    &lt;a
-    data-do="go-forward"
-    data-on="click"
-    href="/acquire"&gt;
-    Remote
-    &lt;/a&gt;
+        </div>
 
-    &lt;script type="text/javascript"&gt;
-    //remote transition are pluggable in this manner
-    jQuery(window).on('mobility-request', function(e, target, effect) {
-    jQuery(window).one('mobility-swap-complete', function() {
-    var current = jQuery('section.screen.current').addClass('loading');
 
-    //remote call yes? lets use acquire!
-    if(target === '/acquire') {
-    require('/template.html', function(html) {
-    jQuery.mobility.swap(html);
-    });
+    </div>
+</div>
 
-    return;
-    }
 
-    //Probably do Ajax instead of this
-    setTimeout(function() {
-    jQuery.mobility.swap(jQuery('#transition').html());
-    }, 5000);
-    });
 
-    jQuery.mobility.swap('', 'slide-left');
-    });
-    &lt;/script&gt;</code></pre>
+
+
     </section>
 </script>
 

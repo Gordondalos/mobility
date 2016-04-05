@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7275d8f-6e66-473f-a543-543f0349e73a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/images/bg3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/sass/_job.scss" afterPath="$PROJECT_DIR$/example/sass/_job.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/sass/_media.scss" afterPath="$PROJECT_DIR$/example/sass/_media.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/sass/_section.sass" afterPath="$PROJECT_DIR$/example/sass/_section.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/index.html" afterPath="$PROJECT_DIR$/example/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/css/main.css" afterPath="$PROJECT_DIR$/example/css/main.css" />
@@ -32,12 +31,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/example/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4858871">
-              <caret line="155" column="65" selection-start-line="155" selection-start-column="65" selection-end-line="155" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.5483871">
+              <caret line="555" column="44" selection-start-line="555" selection-start-column="44" selection-end-line="555" selection-end-column="44" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -53,8 +54,8 @@
       <file leaf-file-name="_section.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/sass/_section.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8235295">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state vertical-scroll-proportion="-10.3529415">
+              <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -73,8 +74,8 @@
       <file leaf-file-name="_media.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/sass/_media.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.588236">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state vertical-scroll-proportion="-13.176471">
+              <caret line="26" column="0" selection-start-line="19" selection-start-column="4" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,13 +103,13 @@
         <option value="$PROJECT_DIR$/example/css/main.css" />
         <option value="$PROJECT_DIR$/example/sass/_helper.sass" />
         <option value="$PROJECT_DIR$/example/sass/_media.sass" />
-        <option value="$PROJECT_DIR$/example/sass/_media.scss" />
         <option value="$PROJECT_DIR$/example/main.js" />
         <option value="$PROJECT_DIR$/example/sass/main.sass" />
         <option value="$PROJECT_DIR$/example/sass/_job.sass" />
         <option value="$PROJECT_DIR$/example/js/main.js" />
         <option value="$PROJECT_DIR$/example/sass/_job.scss" />
         <option value="$PROJECT_DIR$/example/sass/_section.sass" />
+        <option value="$PROJECT_DIR$/example/sass/_media.scss" />
         <option value="$PROJECT_DIR$/example/index.html" />
       </list>
     </option>
@@ -342,12 +343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459878731475</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="version 1.2">
+      <created>1459882576212</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1459882576212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -392,7 +399,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 1" />
     <MESSAGE value="version 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.1" />
+    <MESSAGE value="version 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -405,8 +413,10 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -527,14 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/sass/_media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.588236">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/example/sass/_helper.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-236.23529">
@@ -551,22 +553,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/example/sass/_media.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.176471">
+          <caret line="26" column="0" selection-start-line="19" selection-start-column="4" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/example/sass/_section.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8235295">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state vertical-scroll-proportion="-10.3529415">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4858871">
-          <caret line="155" column="65" selection-start-line="155" selection-start-column="65" selection-end-line="155" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.5483871">
+          <caret line="555" column="44" selection-start-line="555" selection-start-column="44" selection-end-line="555" selection-end-column="44" />
           <folding>
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#aside#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />

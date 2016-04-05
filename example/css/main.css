@@ -7601,6 +7601,18 @@ body {
   z-index: 1500;
 }
 
+/* line 48, ../sass/_section.sass */
+.section-section4 {
+  background-color: #2a62e0;
+  height: 100%;
+}
+/* line 51, ../sass/_section.sass */
+.section-section4 .kompany {
+  margin-top: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 50%;
+}
+
 @media (max-width: 991px) {
   /* line 3, ../sass/_media.scss */
   .section_1 .logo {
@@ -7621,9 +7633,16 @@ body {
   .section_1 form {
     padding: 3rem 1rem 2rem;
   }
+
+  /* line 21, ../sass/_media.scss */
+  .section-section4 .kompany {
+    margin-top: 10%;
+    transform: none;
+    margin-left: 5%;
+  }
 }
 @media (max-width: 767px) {
-  /* line 27, ../sass/_media.scss */
+  /* line 37, ../sass/_media.scss */
   .section_1 form {
     margin-top: 10%;
   }
