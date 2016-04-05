@@ -7399,7 +7399,7 @@ body {
 /* line 28, ../sass/_job.scss */
 .section_2 #heros h1 {
   color: #fff;
-  font-size: 90px;
+  font-size: 4rem;
   line-height: 1;
   display: table-cell;
   vertical-align: middle;
@@ -7455,13 +7455,13 @@ body {
   max-width: 940px;
   width: 100%;
   margin: 0 auto;
-  padding: 60px 0 140px;
+  padding: 60px 1rem 140px;
 }
 /* line 90, ../sass/_job.scss */
 .section_2 h1 {
   font-family: 'Dosis', sans-serif;
   color: #7a1a91;
-  font-size: 40px;
+  font-size: 2rem;
   letter-spacing: 2px;
   line-height: 4rem;
   text-transform: uppercase;
