@@ -32,139 +32,62 @@
 <section class="screen current"></section>
 
 <footer class="foot">
+
+
     <nav class="foot-nav" data-do="foot-nav">
-        <a class="foot-nav-item" data-do="go-back" data-on="click" href="#home">
+        <a class="foot-nav-item" data-do="go-next" data-on="click" href="#home">
             <i class="foot-nav-icon fa fa-home"></i>
-            <span class="foot-nav-label">Home</span>
+            <span class="foot-nav-label">Главная</span>
         </a>
-        <a class="foot-nav-item" data-do="modal-open" data-on="click" href="#profile">
-            <i class="foot-nav-icon fa fa-user"></i>
-            <span class="foot-nav-label">Profile</span>
+        <a class="foot-nav-item" data-do="go-next" data-on="click" href="#basics">
+            <i class="foot-nav-icon fa fa-heart"></i>
+            <span class="foot-nav-label">Как мы работаем</span>
         </a>
-        <a class="foot-nav-item" data-do="modal-open" data-on="click" href="#favorites">
-            <i class="foot-nav-icon fa fa-star"></i>
-            <span class="foot-nav-label">Favorites</span>
+        <a class="foot-nav-item" data-do="go-next" data-on="click" href="#typography">
+            <i class="foot-nav-icon fa fa-plus-circle"></i>
+            <span class="foot-nav-label">Преимущества системы</span>
         </a>
-        <a class="foot-nav-item" data-do="modal-open" data-on="click" href="#modal">
-            <i class="foot-nav-icon fa fa-search"></i>
-            <span class="foot-nav-label">Search</span>
+        <a class="foot-nav-item" data-do="go-next" data-on="click" href="#transition">
+            <i class="foot-nav-icon fa fa-square"></i>
+            <span class="foot-nav-label">О Компании</span>
         </a>
-        <a class="foot-nav-item" data-do="modal-open" data-on="click" href="#modal">
-            <i class="foot-nav-icon fa fa-cog"></i>
-            <span class="foot-nav-label">Settings</span>
-        </a>
+
     </nav>
 </footer>
 
-<!--<div id="modal" class="modal hide">-->
-<!--<header class="head">-->
-<!--<a class="head-link pull-right" href="#modal" data-do="modal-close" data-on="click">-->
-<!--<i class="fa fa-times"></i>-->
-<!--</a>-->
-<!--<h1 class="title">Modal</h1>-->
-<!--</header>-->
-<!-- -->
-<!--<section class="body with-head">-->
-<!--<p class="pad">The contents of my modal go here. Lorem ipsum dolor -->
-<!--sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut -->
-<!--labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation -->
-<!--ullamco laboris nisi ut.</p>-->
-<!--</section>-->
-<!--</div>-->
-<!-- -->
-<!--<div id="favorites" class="modal hide">-->
-<!--<header class="head">-->
-<!--<a class="head-link pull-right" href="#favorites" data-do="modal-close" data-on="click">-->
-<!--<i class="fa fa-times"></i>-->
-<!--</a>-->
-<!--<h1 class="title">Favorites</h1>-->
-<!--</header>-->
-<!-- -->
-<!--<section class="body with-head">-->
-<!--<nav class="nav-list">-->
-<!--<a data-do="go-forward" data-on="click" href="#typography">Typography <i class="fa fa-plus"></i></a>-->
-<!--<a data-do="go-forward" data-on="click" href="#tabs">Tabs <i class="fa fa-edit"></i></a>-->
-<!--<a data-do="go-forward" data-on="click" href="#fields">Fields <i class="fa fa-chevron-right"></i><span class="badge">42</span></a>-->
-<!--<a data-do="go-forward" data-on="click" href="#list">List <i class="fa fa-chevron-right"></i></a>-->
-<!--</nav>-->
-<!--</section>-->
-<!--</div>-->
-<!-- -->
-<!--<div id="profile" class="modal hide">-->
-<!--<header class="head">-->
-<!--<a class="head-link pull-right" href="#profile" data-do="modal-close" data-on="click">-->
-<!--<i class="fa fa-times"></i>-->
-<!--</a>-->
-<!--<h1 class="title">Profile</h1>-->
-<!--</header>-->
-<!-- -->
-<!--<section class="body with-head">-->
-<!--<div class="row pad">-->
-<!--<div class="col-md-1 middle">-->
-<!--<img src="images/baby-19295_640.jpg">-->
-<!--</div>-->
-<!--<div class="col-md-11">-->
-<!--<div class="focus">-->
-<!--<label>Name</label>-->
-<!--<input type="text" class="form-control" placeholder="Text input" value="Hiro Nakaturo" />-->
-<!--</div>-->
-<!--<div class="focus">-->
-<!--<label>Password</label>-->
-<!--<input type="password" class="form-control" placeholder="Enter Text" />-->
-<!--</div>-->
-<!-- -->
-<!--<h4 class="pad upper">Status</h4>-->
-<!--<div class="focus focus-group" data-do="focus-input-group">-->
-<!--<label>-->
-<!--<span>Visible</span>-->
-<!--<input type="radio" name="options" />-->
-<!--</label>-->
-<!--<label>-->
-<!--<span>Hidden</span>-->
-<!--<input type="radio" name="options" />-->
-<!--</label>-->
-<!--<label>-->
-<!--<span>Busy</span>-->
-<!--<input type="radio" name="options" />-->
-<!--</label>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
-<!--</div>-->
-
-<!--<div id="popover" -->
-<!--class="popover hide" -->
-<!--data-do="popover-close" -->
-<!--data-on="click" -->
-<!--data-target="#popover">-->
-<!--<nav class="nav-list">-->
-<!--<a data-do="go-forward" data-on="click" href="#typography">Typography</a>-->
-<!--<a data-do="go-forward" data-on="click" href="#tabs">Tabs</a>-->
-<!--<a data-do="go-forward" data-on="click" href="#fields">Fields</a>-->
-<!--<a data-do="go-forward" data-on="click" href="#list">List</a>-->
-<!--<a data-do="go-forward" data-on="click" href="#refresh">Refresh <i class="fa fa-chevron-right"></i></a>-->
-<!--</nav>-->
-<!--</div>-->
-
 <aside id="aside-left" class="aside aside-left">
-    <a class="btn btn-default pull-right" data-do="aside" data-on="click" href="#aside-left"><i
+    <a class="btn btn-link pull-right b-none bg-none" data-do="aside" data-on="click" href="#aside-left"><i
             class="fa fa-chevron-left"></i></a>
 
-    <h2 class="pad">Mobility</h2>
+    <h2 class="pad">
+        <img class="img-fluid p-a-1" src="images/logo.png" alt="logo">
+    </h2>
     <nav class="nav-list">
         <a data-do="go-forward" data-do="go-back" data-on="click" href="#home">Домой <i class="fa fa-home"></i></a>
-        <a data-do="go-forward" data-on="click" href="#basics">Basics <i class="fa fa-chevron-right"></i></a>
-        <a data-do="go-forward" data-on="click" href="#typography">Typography <i class="fa fa-plus"></i></a>
+        <a data-do="go-forward" data-on="click" href="#basics">
+            <span> Как мы работаем</span>
 
-        <a data-do="go-forward" data-on="click" href="#transition">Transitions <i class="fa fa-chevron-right"></i></a>
-        <a data-do="go-forward" data-on="click" href="#tabs">Tabs <i class="fa fa-edit"></i></a>
-        <a data-do="go-forward" data-on="click" href="#fields">Fields <i class="fa fa-chevron-right"></i><span
-                class="badge">42</span></a>
-        <a data-do="go-forward" data-on="click" href="#list">List <i class="fa fa-chevron-right"></i></a>
-        <a data-do="go-forward" data-on="click" href="#refresh">Refresh <i class="fa fa-chevron-right"></i></a>
-        <a data-do="go-forward" data-on="click" href="#notify">Notify <i class="fa fa-chevron-right"></i></a>
-        <a data-do="go-forward" data-on="click" href="#hero">Hero <i class="fa fa-chevron-right"></i></a>
+            <i class="fa fa-heart"></i>
+        </a>
+        <a data-do="go-forward" data-on="click" href="#typography">
+            <span>Преимущества системы</span>
+
+            <i class="fa fa-plus-circle"></i>
+        </a>
+
+        <a data-do="go-forward" data-on="click" href="#transition">
+
+            <span>О компании</span>
+            <i class="fa fa-square"></i>
+        </a>
+
+        <!--<a data-do="go-forward" data-on="click" href="#tabs">Tabs <i class="fa fa-edit"></i></a>-->
+        <!--<a data-do="go-forward" data-on="click" href="#fields">Fields <i class="fa fa-chevron-right"></i><span-->
+                <!--class="badge">42</span></a>-->
+        <!--<a data-do="go-forward" data-on="click" href="#list">List <i class="fa fa-chevron-right"></i></a>-->
+        <!--<a data-do="go-forward" data-on="click" href="#refresh">Refresh <i class="fa fa-chevron-right"></i></a>-->
+        <!--<a data-do="go-forward" data-on="click" href="#notify">Notify <i class="fa fa-chevron-right"></i></a>-->
+        <!--<a data-do="go-forward" data-on="click" href="#hero">Hero <i class="fa fa-chevron-right"></i></a>-->
     </nav>
 </aside>
 
@@ -176,6 +99,19 @@
     </header>
 
     <section class="body with-head with-foot section_1">
+        <!--<a class="link-left" data-do="go-back"  data-on="click" href="#home">-->
+            <!--<span class="fa-stack fa-lg">-->
+              <!--<i class="fa fa-circle fa-stack-2x"></i>-->
+              <!--<i class="fa fa-angle-left fa-stack-1x fa-inverse"></i>-->
+            <!--</span>-->
+
+        <!--</a>-->
+        <a class="link-right" data-do="go-forward" data-on="click" href="#basics">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-angle-right fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
 
         <div class="container">
             <div class="row">
@@ -265,9 +201,25 @@
             <i class="fa fa-bars"> </i>
         </a>
 
+
+
     </header>
 
     <section class="body with-head with-foot section_2">
+        <a class="link-left" data-do="go-back"  data-on="click" href="#home">
+        <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-angle-left fa-stack-1x fa-inverse"></i>
+        </span>
+
+        </a>
+        <a class="link-right" data-do="go-forward" data-on="click" href="#typography">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-angle-right fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+
         <div class="container-fluid">
             <div class="row">
                 <div id="heros">
@@ -338,8 +290,21 @@
 
     </header>
     <section class="body with-foot with-head pad section-section3">
+        <a class="link-left" data-do="go-back"  data-on="click" href="#basics">
+        <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-angle-left fa-stack-1x fa-inverse"></i>
+        </span>
+
+        </a>
+        <a class="link-right" data-do="go-forward" data-on="click" href="#transition">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-angle-right fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
         <div class="col-xs-12">
-            <h1 class="white p-b-1 text-xs-center">Преимущества системы</h1>
+            <h1 class="white p-b-1 m-t-3 text-xs-center">Преимущества системы</h1>
 
             <div class="row p-b-2">
 
@@ -516,24 +481,23 @@
             <i class="fa fa-bars"> </i>
         </a>
 
-        <a
-                data-do="go-forward"
-                data-on="click"
-                href="#home">
-            Forward
-        </a>
-
-        <a
-                data-do="go-back"
-                data-on="click"
-                href="#home">
-            Back
-        </a>
-
 
     </header>
 
     <section class="body with-head with-foot section-section4">
+        <a class="link-left" data-do="go-back"  data-on="click" href="#typography">
+        <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-angle-left fa-stack-1x fa-inverse"></i>
+        </span>
+
+        </a>
+        <a class="link-right" data-do="go-forward" data-on="click" href="#home">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-angle-right fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
         <!--<nav class="nav-list">-->
             <!--<a data-do="go-forward" data-on="click" href="#transition">Forward <i class="fa fa-chevron-right"></i></a>-->
 
@@ -611,934 +575,934 @@
     </section>
 </script>
 
-<script id="tabs" type="text/html">
-    <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>
-
-        <h1 class="title">Demo - Tabs</h1>
-    </header>
-    <section class="body with-head with-foot">
-        <!-- Nav tabs -->
-        <nav class="tabs">
-            <a class="active" data-do="tab-switch" data-on="click" href="#tab1">Home</a>
-            <a data-do="tab-switch" data-on="click" href="#tab2">Profile</a>
-            <a data-do="tab-switch" data-on="click" href="#tab3">Messages</a>
-            <a data-do="tab-switch" data-on="click" href="#tab4">Settings</a>
-        </nav>
-
-        <div id="tab1">
-            <div class="focus focus-group">
-                <div class="row">
-                    <div class="col-xs-3 middle">
-                        <img title="Imagine Dragons" src="music/Imagine Dragons.jpg"/>
-                    </div>
-                    <div class="col-xs-9">
-                        <h3>Imagine Dragons</h3>
-                        <em class="text-muted">Radioactive</em>
-
-                        <p>Maecenas sed diam eget risus varius blandit sit amet
-                            non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non
-                            commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-                    </div>
-                </div>
-            </div>
-            <nav class="nav-list">
-                <span>Download It <i class="fa fa-chevron-right"></i></span>
-                <span>Buy It <i class="fa fa-chevron-right"></i></span>
-                <span>Share It <i class="fa fa-chevron-right"></i></span>
-                <span>Listen To It <i class="fa fa-chevron-right"></i></span>
-            </nav>
-        </div>
-
-        <div id="tab2" class="focus hide">Nullam quis risus eget urna mollis ornare vel
-            eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-            ridiculus mus. Nullam id dolor id nibh ultricies vehicula.
-        </div>
-
-        <div id="tab3" class="focus hide">Cum sociis natoque penatibus et magnis dis parturient
-            montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
-            sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.
-        </div>
-
-        <div id="tab4" class="focus hide">Maecenas sed diam eget risus varius blandit sit amet
-            non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non
-            commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-        </div>
-
-        <h4 class="pad upper">Tab List HTML</h4>
-			
-<pre><code>&lt;nav class="tabs"&gt;
-    &lt;a
-    class="active"
-    data-do="tab-switch"
-    data-on="click"
-    href="#tab1"&gt;
-    Home
-    &lt;/a&gt;
-    &lt;a
-    data-do="tab-switch"
-    data-on="click"
-    href="#tab2"&gt;
-    Profile
-    &lt;/a&gt;
-    &lt;a
-    data-do="tab-switch"
-    data-on="click"
-    href="#tab3"&gt;
-    Messages
-    &lt;/a&gt;
-    &lt;a
-    data-do="tab-switch"
-    data-on="click"
-    href="#tab4"&gt;
-    Code
-    &lt;/a&gt;
-    &lt;/nav&gt;</code></pre>
-
-        <h4 class="pad upper">Tab Content HTML</h4>
-			
-<pre><code>&lt;div id="tab1"&gt;
-    &hellip;
-    &lt;/div&gt;
-    &lt;div id="tab2" class="hide"&gt;
-    &hellip;
-    &lt;/div&gt;
-    &lt;div id="tab3" class="hide"&gt;
-    &hellip;
-    &lt;/div&gt;
-    &lt;div id="tab4" class="hide"&gt;
-    &hellip;
-    &lt;/div&gt;</code></pre>
-    </section>
-</script>
-
-<script id="fields" type="text/html">
-    <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>
-
-        <h1 class="title">Demo - Fields</h1>
-    </header>
-    <section class="body with-head with-foot">
-        <div class="focus">
-            <label>Input</label>
-            <input type="text" class="form-control" placeholder="Text input"/>
-        </div>
-
-        <h4 class="upper pad">Input Code</h4>
-			
-<pre><code>&lt;div class="focus"&gt;
-    &lt;label>Input&lt;/label&gt;
-    &lt;input
-    type="text"
-    class="form-control"
-    placeholder="Text input" /&gt;
-    &lt;/div&gt;</code></pre>
-
-        <div class="focus">
-            <label>Password</label>
-            <input type="password" class="form-control" placeholder="Enter Text"/>
-        </div>
-
-        <h4 class="upper pad">Password Code</h4>
-			
-<pre><code>&lt;div class="focus"&gt;
-    &lt;label>Input&lt;/label&gt;
-    &lt;input
-    type="password"
-    class="form-control"
-    placeholder="Text Text" /&gt;
-    &lt;/div&gt;</code></pre>
-
-        <div class="focus">
-            <label>File</label>
-            <input type="file" class="form-control"/>
-        </div>
-
-        <h4 class="upper pad">File Code</h4>
-			
-<pre><code>&lt;div class="focus"&gt;
-    &lt;label>Input&lt;/label&gt;
-    &lt;input
-    type="file"
-    class="form-control" /&gt;
-    &lt;/div&gt;</code></pre>
-
-        <div class="focus">
-            <label>Date</label>
-            <input type="date" class="form-control" placeholder="Date"/>
-        </div>
-
-        <h4 class="upper pad">Date Code</h4>
-			
-<pre><code>&lt;div class="focus"&gt;
-    &lt;label>Input&lt;/label&gt;
-    &lt;input
-    type="date"
-    class="form-control"
-    placeholder="Date" /&gt;
-    &lt;/div&gt;</code></pre>
-
-        <div class="focus">
-            <label>Range</label>
-            <input type="range" min="5" max="20" step="5" class="form-control"/>
-        </div>
-
-        <h4 class="upper pad">Range Code</h4>
-			
-<pre><code>&lt;div class="focus"&gt;
-    &lt;label>Input&lt;/label&gt;
-    &lt;input
-    type="range"
-    min="5"
-    max="20"
-    step="5"
-    class="form-control" /&gt;
-    &lt;/div&gt;</code></pre>
-
-        <div class="focus">
-            <label>Number</label>
-            <input type="number" min="5" max="20" step="5" class="form-control"/>
-        </div>
-
-        <h4 class="upper pad">Number Code</h4>
-			
-<pre><code>&lt;div class="focus"&gt;
-    &lt;label>Input&lt;/label&gt;
-    &lt;input
-    type="number"
-    min="5"
-    max="20"
-    step="5"
-    class="form-control" /&gt;
-    &lt;/div&gt;</code></pre>
-
-        <div class="focus">
-            <label class="top">Select</label>
-            <select class="form-control">
-                <option>Option 1</option>
-                <option>Option 2</option>
-                <option>Option 3</option>
-                <option>Option 4</option>
-                <option>Option 5</option>
-            </select>
-        </div>
-
-        <h4 class="upper pad">Select Code</h4>
-			
-<pre><code>&lt;div class="focus"&gt;
-    &lt;label class="top">Select&lt;/label&gt;
-    &lt;select class="form-control"&gt;
-    &lt;option&gt;Option 1&lt;/option&gt;
-    &lt;option&gt;Option 2&lt;/option&gt;
-    &lt;option&gt;Option 3&lt;/option&gt;
-    &lt;option&gt;Option 4&lt;/option&gt;
-    &lt;option&gt;Option 5&lt;/option&gt;
-    &lt;/select&gt;
-    &lt;/div&gt;</code></pre>
-
-        <div class="focus">
-            <label class="top">Textarea</label>
-            <textarea class="form-control" rows="3" placeholder="Enter Text"></textarea>
-        </div>
-
-        <h4 class="upper pad">Textarea Code</h4>
-			
-<pre><code>&lt;div class="focus"&gt;
-    &lt;textarea
-    class="form-control"
-    rows="3"
-    placeholder="Enter Text"&gt;&lt;/textarea&gt;
-    &lt;/div&gt;</code></pre>
-
-        <h4 class="pad upper">Radio</h4>
-
-        <div class="focus focus-group" data-do="focus-input-group">
-            <label>
-                <span>Choice 1</span>
-                <input type="radio" name="options"/>
-            </label>
-            <label>
-                <span>Choice 2</span>
-                <input type="radio" name="options"/>
-            </label>
-            <label>
-                <span>Choice 3</span>
-                <input type="radio" name="options"/>
-            </label>
-            <label>
-                <span>Choice 4</span>
-                <input type="radio" name="options"/>
-            </label>
-        </div>
-
-        <h4 class="upper pad">Radio Code</h4>
-			
-<pre><code>&lt;div class="focus focus-group" data-do="focus-input-group"&gt;
-    &lt;label&gt;
-    &lt;span&gt;Choice 1&lt;/span&gt;
-    &lt;input type="radio" name="options" /&gt;
-    &lt;/label&gt;
-    &lt;label&gt;
-    &lt;span&gt;Choice 2&lt;/span&gt;
-    &lt;input type="radio" name="options" /&gt;
-    &lt;/label&gt;
-    &lt;label&gt;
-    &lt;span&gt;Choice 3&lt;/span&gt;
-    &lt;input type="radio" name="options" /&gt;
-    &lt;/label&gt;
-    &lt;label&gt;
-    &lt;span&gt;Choice 4&lt;/span&gt;
-    &lt;input type="radio" name="options" /&gt;
-    &lt;/label&gt;
-    &lt;/div&gt;</code></pre>
-
-        <h4 class="pad upper">Checkbox</h4>
-
-        <div class="focus focus-group" data-do="focus-input-group">
-            <label>
-                <span>Choice 1</span>
-                <input type="checkbox" name="options"/>
-            </label>
-            <label>
-                <span>Choice 2</span>
-                <input type="checkbox" name="options"/>
-            </label>
-            <label>
-                <span>Choice 3</span>
-                <input type="checkbox" name="options"/>
-            </label>
-            <label>
-                <span>Choice 4</span>
-                <input type="checkbox" name="options"/>
-            </label>
-        </div>
-
-        <h4 class="upper pad">Checkbox Code</h4>
-			
-<pre><code>&lt;div class="focus focus-group" data-do="focus-input-group"&gt;
-    &lt;label&gt;
-    &lt;span&gt;Choice 1&lt;/span&gt;
-    &lt;input type="checkbox" name="options" /&gt;
-    &lt;/label&gt;
-    &lt;label&gt;
-    &lt;span&gt;Choice 2&lt;/span&gt;
-    &lt;input type="checkbox" name="options" /&gt;
-    &lt;/label&gt;
-    &lt;label&gt;
-    &lt;span&gt;Choice 3&lt;/span&gt;
-    &lt;input type="checkbox" name="options" /&gt;
-    &lt;/label&gt;
-    &lt;label&gt;
-    &lt;span&gt;Choice 4&lt;/span&gt;
-    &lt;input type="checkbox" name="options" /&gt;
-    &lt;/label&gt;
-    &lt;/div&gt;</code></pre>
-
-        <h4 class="pad upper">Switch</h4>
-
-        <div class="focus focus-group" data-do="focus-input-group">
-            <label>
-                <span>Choice 1</span>
-                    <span class="switch">
-                        <input type="checkbox" name="check" value="PH"/>
-                        <span></span>
-                    </span>
-            </label>
-            <label>
-                <span>Choice 2</span>
-                    <span class="switch switch-2">
-                        <input type="checkbox" name="check" value="PH"/>
-                        <span></span>
-                    </span>
-            </label>
-            <label>
-                <span>Choice 3</span>
-                    <span class="switch switch-3">
-                        <input type="checkbox" name="check" value="PH"/>
-                        <span></span>
-                    </span>
-            </label>
-            <label>
-                <span>Choice 4</span>
-                    <span class="switch switch-4">
-                        <input type="checkbox" name="check" value="PH"/>
-                        <span></span>
-                    </span>
-            </label>
-            <label>
-                <span>Choice 5</span>
-                    <span class="switch switch-5">
-                        <input type="checkbox" name="check" value="PH"/>
-                        <span></span>
-                    </span>
-            </label>
-            <label>
-                <span>Choice 6</span>
-                    <span class="switch switch-6">
-                        <input type="checkbox" name="check" value="PH"/>
-                        <span></span>
-                    </span>
-            </label>
-            <label>
-                <span>Choice 7</span>
-                    <span class="switch switch-7">
-                        <input type="checkbox" name="check" value="PH"/>
-                        <span></span>
-                    </span>
-            </label>
-        </div>
-
-        <h4 class="upper pad">Switch Code</h4>
-			
-<pre><code>&lt;div class="focus focus-group" data-do="focus-input-group"&gt;
-    &lt;label&gt;
-    &lt;span&gt;Choice 2&lt;/span&gt;
-    &lt;span class="switch switch-2"&gt;
-    &lt;input type="checkbox" name="check" value="PH" /&gt;
-    &lt;span&gt;&lt;/span&gt;
-    &lt;/span&gt;
-    &lt;/label&gt;
-    &lt;/div&gt;</code></pre>
-    </section>
-</script>
-
-<script id="list" type="text/html">
-    <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>
-
-        <h1 class="title">Demo - List</h1>
-    </header>
-    <section class="body with-head with-foot">
-        <h4 class="pad upper">List Example 1</h4>
-
-        <div class="focus focus-group">
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Imagine Dragons" src="music/Imagine Dragons.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>Imagine Dragons</h3>
-                    <em class="text-muted">Radioactive</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="badge">42</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Hurry and Harm" src="music/Hurry and Harm.jpg"/>
-                </div>
-                <div class="col-xs-10">
-                    <h3>The Hurry and the Harm</h3>
-                    <em class="text-muted">Hurt</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Permanent" src="music/Permanent.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>David Cook</h3>
-                    <em class="text-muted">Permanent</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="label label-info">Info</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Kiss" src="music/Kiss.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>Kiss</h3>
-                    <em class="text-muted">This Kiss</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="label label-info">Info</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Willy Moon" src="music/Willy Moon.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>Willy Moon</h3>
-                    <em class="text-muted">Yeah Yeah</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="badge">42</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-        </div>
-
-        <h4 class="pad upper">List Example 1 - Code</h4>
-			
-<pre><code>&lt;div class="focus focus-group"&gt;
-    &lt;div class="row"&gt;
-    &lt;div class="col-xs-3 middle"&gt;
-    &lt;img title="Imagine Dragons" src="music/Imagine Dragons.jpg" /&gt;
-    &lt;/div&gt;
-    &lt;div class="col-xs-7"&gt;
-    &lt;h3&gt;Imagine Dragons&lt;/h3&gt;
-    &lt;em class="text-muted"&gt;Radioactive&lt;/em&gt;
-    &lt;/div&gt;
-    &lt;div class="col-xs-1 middle"&gt;
-    &lt;span class="badge"&gt;42&lt;/span&gt;
-    &lt;/div&gt;
-    &lt;div class="col-xs-1 middle"&gt;
-    &lt;i class="fa fa-chevron-right"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-    &hellip;
-    &lt;/div&gt;</code></pre>
-
-        <h4 class="pad upper">List Example 2</h4>
-
-        <nav class="nav-list">
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Imagine Dragons" src="music/Imagine Dragons.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>Imagine Dragons</h3>
-                    <em class="text-muted">Radioactive</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="badge">42</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Hurry and Harm" src="music/Hurry and Harm.jpg"/>
-                </div>
-                <div class="col-xs-10">
-                    <h3>The Hurry and the Harm</h3>
-                    <em class="text-muted">Hurt</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Permanent" src="music/Permanent.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>David Cook</h3>
-                    <em class="text-muted">Permanent</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="label label-info">Info</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Kiss" src="music/Kiss.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>Kiss</h3>
-                    <em class="text-muted">This Kiss</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="label label-info">Info</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Willy Moon" src="music/Willy Moon.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>Willy Moon</h3>
-                    <em class="text-muted">Yeah Yeah</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="badge">42</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-        </nav>
-
-        <h4 class="pad upper">List Example 2 - Code</h4>
-			
-<pre><code>&lt;nav class="nav-list"&gt;
-    &lt;div class="row"&gt;
-    &lt;div class="col-xs-3 middle"&gt;
-    &lt;img title="Imagine Dragons" src="music/Imagine Dragons.jpg" /&gt;
-    &lt;/div&gt;
-    &lt;div class="col-xs-7"&gt;
-    &lt;h3&gt;Imagine Dragons&lt;/h3&gt;
-    &lt;em class="text-muted"&gt;Radioactive&lt;/em&gt;
-    &lt;/div&gt;
-    &lt;div class="col-xs-1 middle"&gt;
-    &lt;span class="badge"&gt;42&lt;/span&gt;
-    &lt;/div&gt;
-    &lt;div class="col-xs-1 middle"&gt;
-    &lt;i class="fa fa-chevron-right"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-    &hellip;
-    &lt;/nav&gt;</code></pre>
-    </section>
-</script>
-
-<script id="notify" type="text/html">
-    <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>
-
-        <h1 class="title">Demo - Hero</h1>
-    </header>
-
-    <section class="body with-head with-foot">
-        <nav class="nav-list">
-            <a data-do="notify-open" data-on="click" data-message="Hello" data-type="">Notify</a>
-            <a data-do="notify-open" data-on="click" data-message="Some Info" data-type="info">Notify - Info</a>
-            <a data-do="notify-open" data-on="click" data-message="Some Warning" data-type="warning">Notify -
-                Warning</a>
-            <a data-do="notify-open" data-on="click" data-message="Some Error" data-type="error">Notify - Error</a>
-            <a data-do="notify-open" data-on="click" data-message="Some Success" data-type="success">Notify -
-                Success</a>
-        </nav>
-
-        <h4 class="upper pad">Code</h4>
-			
-<pre><code>&lt;a
-    data-do="notify-open"
-    data-on="click"
-    data-message="Hello"
-    data-type=""&gt;
-    Notify
-    &lt;/a&gt;
-
-    &lt;a
-    data-do="notify-open"
-    data-on="click"
-    data-message="Some Info"
-    data-type="info"&gt;
-    Notify - Info
-    &lt;/a&gt;
-
-    &lt;a
-    data-do="notify-open"
-    data-on="click"
-    data-message="Some Warning"
-    data-type="warning"&gt;
-    Notify - Warning
-    &lt;/a&gt;
-
-    &lt;a
-    data-do="notify-open"
-    data-on="click"
-    data-message="Some Error"
-    data-type="error"&gt;
-    Notify - Error
-    &lt;/a&gt;
-
-    &lt;a
-    data-do="notify-open"
-    data-on="click"
-    data-message="Some Success"
-    data-type="success"&gt;
-    Notify - Success
-    &lt;/a&gt;</code></pre>
-    </section>
-</script>
-
-<script id="refresh" type="text/html">
-    <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>
-
-        <h1 class="title">Demo - Refresh</h1>
-    </header>
-
-    <section class="body with-head with-foot">
-        <div class="refresh-pull hide" data-do="refresh-pull"
-             data-pull="Pull down to refresh"
-             data-release="Release to refresh"
-             data-loading="Loading ...">
-            <i class="fa fa-arrow-up"></i>
-            <span class="message"></span>
-        </div>
-
-        <div class="focus focus-group">
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Imagine Dragons" src="music/Imagine Dragons.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>Imagine Dragons</h3>
-                    <em class="text-muted">Radioactive</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="badge">42</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Hurry and Harm" src="music/Hurry and Harm.jpg"/>
-                </div>
-                <div class="col-xs-10">
-                    <h3>The Hurry and the Harm</h3>
-                    <em class="text-muted">Hurt</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Permanent" src="music/Permanent.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>David Cook</h3>
-                    <em class="text-muted">Permanent</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="label label-info">Info</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Kiss" src="music/Kiss.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>Kiss</h3>
-                    <em class="text-muted">This Kiss</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="label label-info">Info</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-3 middle">
-                    <img title="Willy Moon" src="music/Willy Moon.jpg"/>
-                </div>
-                <div class="col-xs-7">
-                    <h3>Willy Moon</h3>
-                    <em class="text-muted">Yeah Yeah</em>
-                </div>
-                <div class="col-xs-1 middle">
-                    <span class="badge">42</span>
-                </div>
-                <div class="col-xs-1 middle">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
-            </div>
-        </div>
-
-        <button
-                class="paginate"
-                data-do="paginate"
-                data-loading="Loading..."
-                data-noresults="No More Found."
-                class="btn btn-default"
-                disabled>Loading ...
-        </button>
-
-        <h4 class="upper pad pagi-wait hide">Code</h4>
-
-<pre class="pagi-wait hide"><code>&lt;div class="refresh-pull hide" data-do="refresh-pull"
-    data-pull="Pull down to refresh"
-    data-release="Release to refresh"
-    data-loading="Loading ..."&gt;
-    &lt;i class="fa fa-arrow-up"&gt;&lt;/i&gt;
-    &lt;span class="message"&gt;&lt;/span&gt;
-    &lt;/div&gt;
-
-    &lt;div class="focus focus-group"&gt;
-    &lt;div class="row"&gt;
-    &lt;div class="col-xs-3 middle"&gt;
-    &lt;img title="Imagine Dragons" src="music/Imagine Dragons.jpg" /&gt;
-    &lt;/div&gt;
-    &lt;div class="col-xs-7"&gt;
-    &lt;h3&gt;Imagine Dragons&lt;/h3&gt;
-    &lt;em class="text-muted"&gt;Radioactive&lt;/em&gt;
-    &lt;/div&gt;
-    &lt;div class="col-xs-1 middle"&gt;
-    &lt;span class="badge"&gt;42&lt;/span&gt;
-    &lt;/div&gt;
-    &lt;div class="col-xs-1 middle"&gt;
-    &lt;i class="fa fa-chevron-right"&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-    &hellip;
-    &lt;/div&gt;
-
-    &lt;button
-    class="paginate"
-    data-do="paginate"
-    data-loading="Loading..."
-    data-noresults="No More Found."
-    class="btn btn-default"
-    disabled&gt;Loading ...&lt;/button&gt;
-
-    &lt;script type="text/javascript"&gt;
-    //default refresh pagination
-    var i = 0;
-    jQuery(window).on('mobility-refresh', function(e, target, callback) {
-    var rows = $(jQuery('#refresh-template').html());
-    setTimeout(function() {
-    callback(rows[(++i) % 4]);
-    }, 1000);
-    });
-
-    //default paginate pagination
-    var j = 0;
-    jQuery(window).on('mobility-paginate', function(e, target, callback) {
-    setTimeout(function() {
-    if(j === 5) {
-    callback();
-    return;
-    }
-
-    callback(jQuery('#refresh-template').html());
-    j++;
-    }, 1000);
-    });
-    &lt;/script&gt;</code></pre>
-    </section>
-</script>
-
-<script id="refresh-template" type="text/html">
-    <div class="row">
-        <div class="col-xs-3 middle">
-            <img title="Imagine Dragons" src="music/Imagine Dragons.jpg"/>
-        </div>
-        <div class="col-xs-7">
-            <h3>Imagine Dragons</h3>
-            <em class="text-muted">Radioactive</em>
-        </div>
-        <div class="col-xs-1 middle">
-            <span class="badge">42</span>
-        </div>
-        <div class="col-xs-1 middle">
-            <i class="fa fa-chevron-right"></i>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-3 middle">
-            <img title="Hurry and Harm" src="music/Hurry and Harm.jpg"/>
-        </div>
-        <div class="col-xs-10">
-            <h3>The Hurry and the Harm</h3>
-            <em class="text-muted">Hurt</em>
-        </div>
-        <div class="col-xs-1 middle">
-            <i class="fa fa-chevron-right"></i>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-3 middle">
-            <img title="Permanent" src="music/Permanent.jpg"/>
-        </div>
-        <div class="col-xs-7">
-            <h3>David Cook</h3>
-            <em class="text-muted">Permanent</em>
-        </div>
-        <div class="col-xs-1 middle">
-            <span class="label label-info">Info</span>
-        </div>
-        <div class="col-xs-1 middle">
-            <i class="fa fa-chevron-right"></i>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-3 middle">
-            <img title="Kiss" src="music/Kiss.jpg"/>
-        </div>
-        <div class="col-xs-7">
-            <h3>Kiss</h3>
-            <em class="text-muted">This Kiss</em>
-        </div>
-        <div class="col-xs-1 middle">
-            <span class="label label-info">Info</span>
-        </div>
-        <div class="col-xs-1 middle">
-            <i class="fa fa-chevron-right"></i>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-3 middle">
-            <img title="Willy Moon" src="music/Willy Moon.jpg"/>
-        </div>
-        <div class="col-xs-7">
-            <h3>Willy Moon</h3>
-            <em class="text-muted">Yeah Yeah</em>
-        </div>
-        <div class="col-xs-1 middle">
-            <span class="badge">42</span>
-        </div>
-        <div class="col-xs-1 middle">
-            <i class="fa fa-chevron-right"></i>
-        </div>
-    </div>
-</script>
-
-<script id="hero" type="text/html">
-    <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>
-
-        <h1 class="title">Demo - Hero</h1>
-    </header>
-    <section class="body with-foot with-head pad">
-        <div class="hero" data-do="hero">
-            <div class="frame">
-                <img src="images/africa-139343_640.jpg"/>
-                <img src="images/american-football-63109_640.jpg"/>
-                <img src="images/baby-19295_640.jpg"/>
-                <img src="images/baby-20339_640.jpg"/>
-                <img src="images/couple-168191_640.jpg"/>
-            </div>
-        </div>
-
-        <h4 class="upper pad">Code</h4>
-
-<pre><code>&lt;div class="hero" data-do="hero"&gt;
-    &lt;div class="frame"&gt;
-    &lt;img src="images/africa-139343_640.jpg" /&gt;
-    &lt;img src="images/american-football-63109_640.jpg" /&gt;
-    &lt;img src="images/baby-19295_640.jpg" /&gt;
-    &lt;img src="images/baby-20339_640.jpg" /&gt;
-    &lt;img src="images/couple-168191_640.jpg" /&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;</code></pre>
-    </section>
-</script>
+<!--<script id="tabs" type="text/html">-->
+    <!--<header class="head">-->
+        <!--<a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>-->
+
+        <!--<h1 class="title">Demo - Tabs</h1>-->
+    <!--</header>-->
+    <!--<section class="body with-head with-foot">-->
+        <!--&lt;!&ndash; Nav tabs &ndash;&gt;-->
+        <!--<nav class="tabs">-->
+            <!--<a class="active" data-do="tab-switch" data-on="click" href="#tab1">Home</a>-->
+            <!--<a data-do="tab-switch" data-on="click" href="#tab2">Profile</a>-->
+            <!--<a data-do="tab-switch" data-on="click" href="#tab3">Messages</a>-->
+            <!--<a data-do="tab-switch" data-on="click" href="#tab4">Settings</a>-->
+        <!--</nav>-->
+
+        <!--<div id="tab1">-->
+            <!--<div class="focus focus-group">-->
+                <!--<div class="row">-->
+                    <!--<div class="col-xs-3 middle">-->
+                        <!--<img title="Imagine Dragons" src="music/Imagine Dragons.jpg"/>-->
+                    <!--</div>-->
+                    <!--<div class="col-xs-9">-->
+                        <!--<h3>Imagine Dragons</h3>-->
+                        <!--<em class="text-muted">Radioactive</em>-->
+
+                        <!--<p>Maecenas sed diam eget risus varius blandit sit amet-->
+                            <!--non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non-->
+                            <!--commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<nav class="nav-list">-->
+                <!--<span>Download It <i class="fa fa-chevron-right"></i></span>-->
+                <!--<span>Buy It <i class="fa fa-chevron-right"></i></span>-->
+                <!--<span>Share It <i class="fa fa-chevron-right"></i></span>-->
+                <!--<span>Listen To It <i class="fa fa-chevron-right"></i></span>-->
+            <!--</nav>-->
+        <!--</div>-->
+
+        <!--<div id="tab2" class="focus hide">Nullam quis risus eget urna mollis ornare vel-->
+            <!--eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur-->
+            <!--ridiculus mus. Nullam id dolor id nibh ultricies vehicula.-->
+        <!--</div>-->
+
+        <!--<div id="tab3" class="focus hide">Cum sociis natoque penatibus et magnis dis parturient-->
+            <!--montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.-->
+            <!--Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio-->
+            <!--sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.-->
+        <!--</div>-->
+
+        <!--<div id="tab4" class="focus hide">Maecenas sed diam eget risus varius blandit sit amet-->
+            <!--non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non-->
+            <!--commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.-->
+        <!--</div>-->
+
+        <!--<h4 class="pad upper">Tab List HTML</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;nav class="tabs"&gt;-->
+    <!--&lt;a-->
+    <!--class="active"-->
+    <!--data-do="tab-switch"-->
+    <!--data-on="click"-->
+    <!--href="#tab1"&gt;-->
+    <!--Home-->
+    <!--&lt;/a&gt;-->
+    <!--&lt;a-->
+    <!--data-do="tab-switch"-->
+    <!--data-on="click"-->
+    <!--href="#tab2"&gt;-->
+    <!--Profile-->
+    <!--&lt;/a&gt;-->
+    <!--&lt;a-->
+    <!--data-do="tab-switch"-->
+    <!--data-on="click"-->
+    <!--href="#tab3"&gt;-->
+    <!--Messages-->
+    <!--&lt;/a&gt;-->
+    <!--&lt;a-->
+    <!--data-do="tab-switch"-->
+    <!--data-on="click"-->
+    <!--href="#tab4"&gt;-->
+    <!--Code-->
+    <!--&lt;/a&gt;-->
+    <!--&lt;/nav&gt;</code></pre>-->
+
+        <!--<h4 class="pad upper">Tab Content HTML</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div id="tab1"&gt;-->
+    <!--&hellip;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div id="tab2" class="hide"&gt;-->
+    <!--&hellip;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div id="tab3" class="hide"&gt;-->
+    <!--&hellip;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div id="tab4" class="hide"&gt;-->
+    <!--&hellip;-->
+    <!--&lt;/div&gt;</code></pre>-->
+    <!--</section>-->
+<!--</script>-->
+
+<!--<script id="fields" type="text/html">-->
+    <!--<header class="head">-->
+        <!--<a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>-->
+
+        <!--<h1 class="title">Demo - Fields</h1>-->
+    <!--</header>-->
+    <!--<section class="body with-head with-foot">-->
+        <!--<div class="focus">-->
+            <!--<label>Input</label>-->
+            <!--<input type="text" class="form-control" placeholder="Text input"/>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Input Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus"&gt;-->
+    <!--&lt;label>Input&lt;/label&gt;-->
+    <!--&lt;input-->
+    <!--type="text"-->
+    <!--class="form-control"-->
+    <!--placeholder="Text input" /&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<div class="focus">-->
+            <!--<label>Password</label>-->
+            <!--<input type="password" class="form-control" placeholder="Enter Text"/>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Password Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus"&gt;-->
+    <!--&lt;label>Input&lt;/label&gt;-->
+    <!--&lt;input-->
+    <!--type="password"-->
+    <!--class="form-control"-->
+    <!--placeholder="Text Text" /&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<div class="focus">-->
+            <!--<label>File</label>-->
+            <!--<input type="file" class="form-control"/>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">File Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus"&gt;-->
+    <!--&lt;label>Input&lt;/label&gt;-->
+    <!--&lt;input-->
+    <!--type="file"-->
+    <!--class="form-control" /&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<div class="focus">-->
+            <!--<label>Date</label>-->
+            <!--<input type="date" class="form-control" placeholder="Date"/>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Date Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus"&gt;-->
+    <!--&lt;label>Input&lt;/label&gt;-->
+    <!--&lt;input-->
+    <!--type="date"-->
+    <!--class="form-control"-->
+    <!--placeholder="Date" /&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<div class="focus">-->
+            <!--<label>Range</label>-->
+            <!--<input type="range" min="5" max="20" step="5" class="form-control"/>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Range Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus"&gt;-->
+    <!--&lt;label>Input&lt;/label&gt;-->
+    <!--&lt;input-->
+    <!--type="range"-->
+    <!--min="5"-->
+    <!--max="20"-->
+    <!--step="5"-->
+    <!--class="form-control" /&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<div class="focus">-->
+            <!--<label>Number</label>-->
+            <!--<input type="number" min="5" max="20" step="5" class="form-control"/>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Number Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus"&gt;-->
+    <!--&lt;label>Input&lt;/label&gt;-->
+    <!--&lt;input-->
+    <!--type="number"-->
+    <!--min="5"-->
+    <!--max="20"-->
+    <!--step="5"-->
+    <!--class="form-control" /&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<div class="focus">-->
+            <!--<label class="top">Select</label>-->
+            <!--<select class="form-control">-->
+                <!--<option>Option 1</option>-->
+                <!--<option>Option 2</option>-->
+                <!--<option>Option 3</option>-->
+                <!--<option>Option 4</option>-->
+                <!--<option>Option 5</option>-->
+            <!--</select>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Select Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus"&gt;-->
+    <!--&lt;label class="top">Select&lt;/label&gt;-->
+    <!--&lt;select class="form-control"&gt;-->
+    <!--&lt;option&gt;Option 1&lt;/option&gt;-->
+    <!--&lt;option&gt;Option 2&lt;/option&gt;-->
+    <!--&lt;option&gt;Option 3&lt;/option&gt;-->
+    <!--&lt;option&gt;Option 4&lt;/option&gt;-->
+    <!--&lt;option&gt;Option 5&lt;/option&gt;-->
+    <!--&lt;/select&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<div class="focus">-->
+            <!--<label class="top">Textarea</label>-->
+            <!--<textarea class="form-control" rows="3" placeholder="Enter Text"></textarea>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Textarea Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus"&gt;-->
+    <!--&lt;textarea-->
+    <!--class="form-control"-->
+    <!--rows="3"-->
+    <!--placeholder="Enter Text"&gt;&lt;/textarea&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<h4 class="pad upper">Radio</h4>-->
+
+        <!--<div class="focus focus-group" data-do="focus-input-group">-->
+            <!--<label>-->
+                <!--<span>Choice 1</span>-->
+                <!--<input type="radio" name="options"/>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 2</span>-->
+                <!--<input type="radio" name="options"/>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 3</span>-->
+                <!--<input type="radio" name="options"/>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 4</span>-->
+                <!--<input type="radio" name="options"/>-->
+            <!--</label>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Radio Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus focus-group" data-do="focus-input-group"&gt;-->
+    <!--&lt;label&gt;-->
+    <!--&lt;span&gt;Choice 1&lt;/span&gt;-->
+    <!--&lt;input type="radio" name="options" /&gt;-->
+    <!--&lt;/label&gt;-->
+    <!--&lt;label&gt;-->
+    <!--&lt;span&gt;Choice 2&lt;/span&gt;-->
+    <!--&lt;input type="radio" name="options" /&gt;-->
+    <!--&lt;/label&gt;-->
+    <!--&lt;label&gt;-->
+    <!--&lt;span&gt;Choice 3&lt;/span&gt;-->
+    <!--&lt;input type="radio" name="options" /&gt;-->
+    <!--&lt;/label&gt;-->
+    <!--&lt;label&gt;-->
+    <!--&lt;span&gt;Choice 4&lt;/span&gt;-->
+    <!--&lt;input type="radio" name="options" /&gt;-->
+    <!--&lt;/label&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<h4 class="pad upper">Checkbox</h4>-->
+
+        <!--<div class="focus focus-group" data-do="focus-input-group">-->
+            <!--<label>-->
+                <!--<span>Choice 1</span>-->
+                <!--<input type="checkbox" name="options"/>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 2</span>-->
+                <!--<input type="checkbox" name="options"/>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 3</span>-->
+                <!--<input type="checkbox" name="options"/>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 4</span>-->
+                <!--<input type="checkbox" name="options"/>-->
+            <!--</label>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Checkbox Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus focus-group" data-do="focus-input-group"&gt;-->
+    <!--&lt;label&gt;-->
+    <!--&lt;span&gt;Choice 1&lt;/span&gt;-->
+    <!--&lt;input type="checkbox" name="options" /&gt;-->
+    <!--&lt;/label&gt;-->
+    <!--&lt;label&gt;-->
+    <!--&lt;span&gt;Choice 2&lt;/span&gt;-->
+    <!--&lt;input type="checkbox" name="options" /&gt;-->
+    <!--&lt;/label&gt;-->
+    <!--&lt;label&gt;-->
+    <!--&lt;span&gt;Choice 3&lt;/span&gt;-->
+    <!--&lt;input type="checkbox" name="options" /&gt;-->
+    <!--&lt;/label&gt;-->
+    <!--&lt;label&gt;-->
+    <!--&lt;span&gt;Choice 4&lt;/span&gt;-->
+    <!--&lt;input type="checkbox" name="options" /&gt;-->
+    <!--&lt;/label&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<h4 class="pad upper">Switch</h4>-->
+
+        <!--<div class="focus focus-group" data-do="focus-input-group">-->
+            <!--<label>-->
+                <!--<span>Choice 1</span>-->
+                    <!--<span class="switch">-->
+                        <!--<input type="checkbox" name="check" value="PH"/>-->
+                        <!--<span></span>-->
+                    <!--</span>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 2</span>-->
+                    <!--<span class="switch switch-2">-->
+                        <!--<input type="checkbox" name="check" value="PH"/>-->
+                        <!--<span></span>-->
+                    <!--</span>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 3</span>-->
+                    <!--<span class="switch switch-3">-->
+                        <!--<input type="checkbox" name="check" value="PH"/>-->
+                        <!--<span></span>-->
+                    <!--</span>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 4</span>-->
+                    <!--<span class="switch switch-4">-->
+                        <!--<input type="checkbox" name="check" value="PH"/>-->
+                        <!--<span></span>-->
+                    <!--</span>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 5</span>-->
+                    <!--<span class="switch switch-5">-->
+                        <!--<input type="checkbox" name="check" value="PH"/>-->
+                        <!--<span></span>-->
+                    <!--</span>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 6</span>-->
+                    <!--<span class="switch switch-6">-->
+                        <!--<input type="checkbox" name="check" value="PH"/>-->
+                        <!--<span></span>-->
+                    <!--</span>-->
+            <!--</label>-->
+            <!--<label>-->
+                <!--<span>Choice 7</span>-->
+                    <!--<span class="switch switch-7">-->
+                        <!--<input type="checkbox" name="check" value="PH"/>-->
+                        <!--<span></span>-->
+                    <!--</span>-->
+            <!--</label>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Switch Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus focus-group" data-do="focus-input-group"&gt;-->
+    <!--&lt;label&gt;-->
+    <!--&lt;span&gt;Choice 2&lt;/span&gt;-->
+    <!--&lt;span class="switch switch-2"&gt;-->
+    <!--&lt;input type="checkbox" name="check" value="PH" /&gt;-->
+    <!--&lt;span&gt;&lt;/span&gt;-->
+    <!--&lt;/span&gt;-->
+    <!--&lt;/label&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+    <!--</section>-->
+<!--</script>-->
+
+<!--<script id="list" type="text/html">-->
+    <!--<header class="head">-->
+        <!--<a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>-->
+
+        <!--<h1 class="title">Demo - List</h1>-->
+    <!--</header>-->
+    <!--<section class="body with-head with-foot">-->
+        <!--<h4 class="pad upper">List Example 1</h4>-->
+
+        <!--<div class="focus focus-group">-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Imagine Dragons" src="music/Imagine Dragons.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>Imagine Dragons</h3>-->
+                    <!--<em class="text-muted">Radioactive</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="badge">42</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Hurry and Harm" src="music/Hurry and Harm.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-10">-->
+                    <!--<h3>The Hurry and the Harm</h3>-->
+                    <!--<em class="text-muted">Hurt</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Permanent" src="music/Permanent.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>David Cook</h3>-->
+                    <!--<em class="text-muted">Permanent</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="label label-info">Info</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Kiss" src="music/Kiss.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>Kiss</h3>-->
+                    <!--<em class="text-muted">This Kiss</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="label label-info">Info</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Willy Moon" src="music/Willy Moon.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>Willy Moon</h3>-->
+                    <!--<em class="text-muted">Yeah Yeah</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="badge">42</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<h4 class="pad upper">List Example 1 - Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;div class="focus focus-group"&gt;-->
+    <!--&lt;div class="row"&gt;-->
+    <!--&lt;div class="col-xs-3 middle"&gt;-->
+    <!--&lt;img title="Imagine Dragons" src="music/Imagine Dragons.jpg" /&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div class="col-xs-7"&gt;-->
+    <!--&lt;h3&gt;Imagine Dragons&lt;/h3&gt;-->
+    <!--&lt;em class="text-muted"&gt;Radioactive&lt;/em&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div class="col-xs-1 middle"&gt;-->
+    <!--&lt;span class="badge"&gt;42&lt;/span&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div class="col-xs-1 middle"&gt;-->
+    <!--&lt;i class="fa fa-chevron-right"&gt;&lt;/i&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&hellip;-->
+    <!--&lt;/div&gt;</code></pre>-->
+
+        <!--<h4 class="pad upper">List Example 2</h4>-->
+
+        <!--<nav class="nav-list">-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Imagine Dragons" src="music/Imagine Dragons.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>Imagine Dragons</h3>-->
+                    <!--<em class="text-muted">Radioactive</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="badge">42</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Hurry and Harm" src="music/Hurry and Harm.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-10">-->
+                    <!--<h3>The Hurry and the Harm</h3>-->
+                    <!--<em class="text-muted">Hurt</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Permanent" src="music/Permanent.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>David Cook</h3>-->
+                    <!--<em class="text-muted">Permanent</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="label label-info">Info</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Kiss" src="music/Kiss.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>Kiss</h3>-->
+                    <!--<em class="text-muted">This Kiss</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="label label-info">Info</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Willy Moon" src="music/Willy Moon.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>Willy Moon</h3>-->
+                    <!--<em class="text-muted">Yeah Yeah</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="badge">42</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</nav>-->
+
+        <!--<h4 class="pad upper">List Example 2 - Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;nav class="nav-list"&gt;-->
+    <!--&lt;div class="row"&gt;-->
+    <!--&lt;div class="col-xs-3 middle"&gt;-->
+    <!--&lt;img title="Imagine Dragons" src="music/Imagine Dragons.jpg" /&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div class="col-xs-7"&gt;-->
+    <!--&lt;h3&gt;Imagine Dragons&lt;/h3&gt;-->
+    <!--&lt;em class="text-muted"&gt;Radioactive&lt;/em&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div class="col-xs-1 middle"&gt;-->
+    <!--&lt;span class="badge"&gt;42&lt;/span&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div class="col-xs-1 middle"&gt;-->
+    <!--&lt;i class="fa fa-chevron-right"&gt;&lt;/i&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&hellip;-->
+    <!--&lt;/nav&gt;</code></pre>-->
+    <!--</section>-->
+<!--</script>-->
+
+<!--<script id="notify" type="text/html">-->
+    <!--<header class="head">-->
+        <!--<a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>-->
+
+        <!--<h1 class="title">Demo - Hero</h1>-->
+    <!--</header>-->
+
+    <!--<section class="body with-head with-foot">-->
+        <!--<nav class="nav-list">-->
+            <!--<a data-do="notify-open" data-on="click" data-message="Hello" data-type="">Notify</a>-->
+            <!--<a data-do="notify-open" data-on="click" data-message="Some Info" data-type="info">Notify - Info</a>-->
+            <!--<a data-do="notify-open" data-on="click" data-message="Some Warning" data-type="warning">Notify - -->
+                <!--Warning</a>-->
+            <!--<a data-do="notify-open" data-on="click" data-message="Some Error" data-type="error">Notify - Error</a>-->
+            <!--<a data-do="notify-open" data-on="click" data-message="Some Success" data-type="success">Notify - -->
+                <!--Success</a>-->
+        <!--</nav>-->
+
+        <!--<h4 class="upper pad">Code</h4>-->
+			<!-- -->
+<!--<pre><code>&lt;a-->
+    <!--data-do="notify-open"-->
+    <!--data-on="click"-->
+    <!--data-message="Hello"-->
+    <!--data-type=""&gt;-->
+    <!--Notify-->
+    <!--&lt;/a&gt;-->
+
+    <!--&lt;a-->
+    <!--data-do="notify-open"-->
+    <!--data-on="click"-->
+    <!--data-message="Some Info"-->
+    <!--data-type="info"&gt;-->
+    <!--Notify - Info-->
+    <!--&lt;/a&gt;-->
+
+    <!--&lt;a-->
+    <!--data-do="notify-open"-->
+    <!--data-on="click"-->
+    <!--data-message="Some Warning"-->
+    <!--data-type="warning"&gt;-->
+    <!--Notify - Warning-->
+    <!--&lt;/a&gt;-->
+
+    <!--&lt;a-->
+    <!--data-do="notify-open"-->
+    <!--data-on="click"-->
+    <!--data-message="Some Error"-->
+    <!--data-type="error"&gt;-->
+    <!--Notify - Error-->
+    <!--&lt;/a&gt;-->
+
+    <!--&lt;a-->
+    <!--data-do="notify-open"-->
+    <!--data-on="click"-->
+    <!--data-message="Some Success"-->
+    <!--data-type="success"&gt;-->
+    <!--Notify - Success-->
+    <!--&lt;/a&gt;</code></pre>-->
+    <!--</section>-->
+<!--</script>-->
+
+<!--<script id="refresh" type="text/html">-->
+    <!--<header class="head">-->
+        <!--<a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>-->
+
+        <!--<h1 class="title">Demo - Refresh</h1>-->
+    <!--</header>-->
+
+    <!--<section class="body with-head with-foot">-->
+        <!--<div class="refresh-pull hide" data-do="refresh-pull"-->
+             <!--data-pull="Pull down to refresh"-->
+             <!--data-release="Release to refresh"-->
+             <!--data-loading="Loading ...">-->
+            <!--<i class="fa fa-arrow-up"></i>-->
+            <!--<span class="message"></span>-->
+        <!--</div>-->
+
+        <!--<div class="focus focus-group">-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Imagine Dragons" src="music/Imagine Dragons.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>Imagine Dragons</h3>-->
+                    <!--<em class="text-muted">Radioactive</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="badge">42</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Hurry and Harm" src="music/Hurry and Harm.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-10">-->
+                    <!--<h3>The Hurry and the Harm</h3>-->
+                    <!--<em class="text-muted">Hurt</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Permanent" src="music/Permanent.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>David Cook</h3>-->
+                    <!--<em class="text-muted">Permanent</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="label label-info">Info</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Kiss" src="music/Kiss.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>Kiss</h3>-->
+                    <!--<em class="text-muted">This Kiss</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="label label-info">Info</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+                <!--<div class="col-xs-3 middle">-->
+                    <!--<img title="Willy Moon" src="music/Willy Moon.jpg"/>-->
+                <!--</div>-->
+                <!--<div class="col-xs-7">-->
+                    <!--<h3>Willy Moon</h3>-->
+                    <!--<em class="text-muted">Yeah Yeah</em>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<span class="badge">42</span>-->
+                <!--</div>-->
+                <!--<div class="col-xs-1 middle">-->
+                    <!--<i class="fa fa-chevron-right"></i>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<button-->
+                <!--class="paginate"-->
+                <!--data-do="paginate"-->
+                <!--data-loading="Loading..."-->
+                <!--data-noresults="No More Found."-->
+                <!--class="btn btn-default"-->
+                <!--disabled>Loading ...-->
+        <!--</button>-->
+
+        <!--<h4 class="upper pad pagi-wait hide">Code</h4>-->
+
+<!--<pre class="pagi-wait hide"><code>&lt;div class="refresh-pull hide" data-do="refresh-pull"-->
+    <!--data-pull="Pull down to refresh"-->
+    <!--data-release="Release to refresh"-->
+    <!--data-loading="Loading ..."&gt;-->
+    <!--&lt;i class="fa fa-arrow-up"&gt;&lt;/i&gt;-->
+    <!--&lt;span class="message"&gt;&lt;/span&gt;-->
+    <!--&lt;/div&gt;-->
+
+    <!--&lt;div class="focus focus-group"&gt;-->
+    <!--&lt;div class="row"&gt;-->
+    <!--&lt;div class="col-xs-3 middle"&gt;-->
+    <!--&lt;img title="Imagine Dragons" src="music/Imagine Dragons.jpg" /&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div class="col-xs-7"&gt;-->
+    <!--&lt;h3&gt;Imagine Dragons&lt;/h3&gt;-->
+    <!--&lt;em class="text-muted"&gt;Radioactive&lt;/em&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div class="col-xs-1 middle"&gt;-->
+    <!--&lt;span class="badge"&gt;42&lt;/span&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;div class="col-xs-1 middle"&gt;-->
+    <!--&lt;i class="fa fa-chevron-right"&gt;&lt;/i&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&hellip;-->
+    <!--&lt;/div&gt;-->
+
+    <!--&lt;button-->
+    <!--class="paginate"-->
+    <!--data-do="paginate"-->
+    <!--data-loading="Loading..."-->
+    <!--data-noresults="No More Found."-->
+    <!--class="btn btn-default"-->
+    <!--disabled&gt;Loading ...&lt;/button&gt;-->
+
+    <!--&lt;script type="text/javascript"&gt;-->
+    <!--//default refresh pagination-->
+    <!--var i = 0;-->
+    <!--jQuery(window).on('mobility-refresh', function(e, target, callback) {-->
+    <!--var rows = $(jQuery('#refresh-template').html());-->
+    <!--setTimeout(function() {-->
+    <!--callback(rows[(++i) % 4]);-->
+    <!--}, 1000);-->
+    <!--});-->
+
+    <!--//default paginate pagination-->
+    <!--var j = 0;-->
+    <!--jQuery(window).on('mobility-paginate', function(e, target, callback) {-->
+    <!--setTimeout(function() {-->
+    <!--if(j === 5) {-->
+    <!--callback();-->
+    <!--return;-->
+    <!--}-->
+
+    <!--callback(jQuery('#refresh-template').html());-->
+    <!--j++;-->
+    <!--}, 1000);-->
+    <!--});-->
+    <!--&lt;/script&gt;</code></pre>-->
+    <!--</section>-->
+<!--</script>-->
+
+<!--<script id="refresh-template" type="text/html">-->
+    <!--<div class="row">-->
+        <!--<div class="col-xs-3 middle">-->
+            <!--<img title="Imagine Dragons" src="music/Imagine Dragons.jpg"/>-->
+        <!--</div>-->
+        <!--<div class="col-xs-7">-->
+            <!--<h3>Imagine Dragons</h3>-->
+            <!--<em class="text-muted">Radioactive</em>-->
+        <!--</div>-->
+        <!--<div class="col-xs-1 middle">-->
+            <!--<span class="badge">42</span>-->
+        <!--</div>-->
+        <!--<div class="col-xs-1 middle">-->
+            <!--<i class="fa fa-chevron-right"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+        <!--<div class="col-xs-3 middle">-->
+            <!--<img title="Hurry and Harm" src="music/Hurry and Harm.jpg"/>-->
+        <!--</div>-->
+        <!--<div class="col-xs-10">-->
+            <!--<h3>The Hurry and the Harm</h3>-->
+            <!--<em class="text-muted">Hurt</em>-->
+        <!--</div>-->
+        <!--<div class="col-xs-1 middle">-->
+            <!--<i class="fa fa-chevron-right"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+        <!--<div class="col-xs-3 middle">-->
+            <!--<img title="Permanent" src="music/Permanent.jpg"/>-->
+        <!--</div>-->
+        <!--<div class="col-xs-7">-->
+            <!--<h3>David Cook</h3>-->
+            <!--<em class="text-muted">Permanent</em>-->
+        <!--</div>-->
+        <!--<div class="col-xs-1 middle">-->
+            <!--<span class="label label-info">Info</span>-->
+        <!--</div>-->
+        <!--<div class="col-xs-1 middle">-->
+            <!--<i class="fa fa-chevron-right"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+        <!--<div class="col-xs-3 middle">-->
+            <!--<img title="Kiss" src="music/Kiss.jpg"/>-->
+        <!--</div>-->
+        <!--<div class="col-xs-7">-->
+            <!--<h3>Kiss</h3>-->
+            <!--<em class="text-muted">This Kiss</em>-->
+        <!--</div>-->
+        <!--<div class="col-xs-1 middle">-->
+            <!--<span class="label label-info">Info</span>-->
+        <!--</div>-->
+        <!--<div class="col-xs-1 middle">-->
+            <!--<i class="fa fa-chevron-right"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+        <!--<div class="col-xs-3 middle">-->
+            <!--<img title="Willy Moon" src="music/Willy Moon.jpg"/>-->
+        <!--</div>-->
+        <!--<div class="col-xs-7">-->
+            <!--<h3>Willy Moon</h3>-->
+            <!--<em class="text-muted">Yeah Yeah</em>-->
+        <!--</div>-->
+        <!--<div class="col-xs-1 middle">-->
+            <!--<span class="badge">42</span>-->
+        <!--</div>-->
+        <!--<div class="col-xs-1 middle">-->
+            <!--<i class="fa fa-chevron-right"></i>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</script>-->
+
+<!--<script id="hero" type="text/html">-->
+    <!--<header class="head">-->
+        <!--<a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>-->
+
+        <!--<h1 class="title">Demo - Hero</h1>-->
+    <!--</header>-->
+    <!--<section class="body with-foot with-head pad">-->
+        <!--<div class="hero" data-do="hero">-->
+            <!--<div class="frame">-->
+                <!--<img src="images/africa-139343_640.jpg"/>-->
+                <!--<img src="images/american-football-63109_640.jpg"/>-->
+                <!--<img src="images/baby-19295_640.jpg"/>-->
+                <!--<img src="images/baby-20339_640.jpg"/>-->
+                <!--<img src="images/couple-168191_640.jpg"/>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<h4 class="upper pad">Code</h4>-->
+
+<!--<pre><code>&lt;div class="hero" data-do="hero"&gt;-->
+    <!--&lt;div class="frame"&gt;-->
+    <!--&lt;img src="images/africa-139343_640.jpg" /&gt;-->
+    <!--&lt;img src="images/american-football-63109_640.jpg" /&gt;-->
+    <!--&lt;img src="images/baby-19295_640.jpg" /&gt;-->
+    <!--&lt;img src="images/baby-20339_640.jpg" /&gt;-->
+    <!--&lt;img src="images/couple-168191_640.jpg" /&gt;-->
+    <!--&lt;/div&gt;-->
+    <!--&lt;/div&gt;</code></pre>-->
+    <!--</section>-->
+<!--</script>-->
 
 <script type="text/javascript">
 

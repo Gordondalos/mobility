@@ -7551,19 +7551,75 @@ body {
   top: 0;
 }
 
-/* line 9, ../sass/_section.sass */
+/* line 8, ../sass/_section.sass */
+.aside {
+  background: transparent;
+  background-image: linear-gradient(green 0px, yellow);
+}
+/* line 11, ../sass/_section.sass */
+.aside .nav-list {
+  border: none;
+  background: none;
+  color: #fff;
+}
+/* line 15, ../sass/_section.sass */
+.aside .nav-list a {
+  color: #fff;
+  padding: 0.5rem;
+}
+/* line 18, ../sass/_section.sass */
+.aside .nav-list i {
+  color: #fff;
+  display: inline-block;
+  right: 0;
+}
+
+/* line 23, ../sass/_section.sass */
+.link-left {
+  position: absolute;
+  top: 50%;
+  margin: 0.5rem;
+  z-index: 3000;
+}
+/* line 28, ../sass/_section.sass */
+.link-left .fa-circle {
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 30, ../sass/_section.sass */
+.link-left .fa-angle-left {
+  color: #818a91;
+}
+
+/* line 32, ../sass/_section.sass */
+.link-right {
+  position: absolute;
+  top: 50%;
+  z-index: 3000;
+  right: 0;
+  margin: 0.5rem;
+}
+/* line 38, ../sass/_section.sass */
+.link-right .fa-circle {
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 40, ../sass/_section.sass */
+.link-right .fa-angle-right {
+  color: #818a91;
+}
+
+/* line 44, ../sass/_section.sass */
 .section_1 {
   background-image: url("../images/section1.jpg");
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 14, ../sass/_section.sass */
+/* line 49, ../sass/_section.sass */
 .section_1 .logo {
   max-width: 20rem;
   margin-top: 35%;
   margin-left: 15%;
 }
-/* line 19, ../sass/_section.sass */
+/* line 54, ../sass/_section.sass */
 .section_1 .specbutton {
   position: absolute;
   top: 42%;
@@ -7573,7 +7629,7 @@ body {
   border-radius: 100%;
   transform: translateY(-50%);
 }
-/* line 27, ../sass/_section.sass */
+/* line 62, ../sass/_section.sass */
 .section_1 form {
   margin-top: 60%;
   box-shadow: 1px 1px 5px grey;
@@ -7581,32 +7637,32 @@ body {
   padding: 5rem 3rem 4rem;
 }
 
-/* line 34, ../sass/_section.sass */
+/* line 69, ../sass/_section.sass */
 .section-section3 {
   background-image: url(../images/bg3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 3rem;
 }
-/* line 39, ../sass/_section.sass */
+/* line 74, ../sass/_section.sass */
 .section-section3 .card {
   background-color: rgba(255, 255, 255, 0.7);
   transition: All ease 0.8s;
   position: relative;
 }
-/* line 43, ../sass/_section.sass */
+/* line 78, ../sass/_section.sass */
 .section-section3 .card:hover {
   background-color: white;
   transform: scale(1.05);
   z-index: 1500;
 }
 
-/* line 48, ../sass/_section.sass */
+/* line 83, ../sass/_section.sass */
 .section-section4 {
   background-color: #2a62e0;
   height: 100%;
 }
-/* line 51, ../sass/_section.sass */
+/* line 86, ../sass/_section.sass */
 .section-section4 .kompany {
   margin-top: 50%;
   transform: translate(-50%, -50%);

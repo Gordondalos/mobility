@@ -5,6 +5,41 @@
 .with-head
 	top: 0
 
+.aside
+	background: transparent
+	background-image: linear-gradient(green 0px, rgb(255, 255, 0))
+	.nav-list
+		border: none
+		background: none
+		color: $white
+		a
+			color: $white
+			padding: .5rem
+		i
+			color: $white
+			display: inline-block
+			right: 0
+
+.link-left
+	position: absolute
+	top: 50%
+	margin: .5rem
+	z-index: 3000
+	.fa-circle
+		color: rgba(255,255,255,.8)
+	.fa-angle-left
+		color: $text-muted
+.link-right
+	position: absolute
+	top: 50%
+	z-index: 3000
+	right: 0
+	margin: .5rem
+	.fa-circle
+		color: rgba(255,255,255,.8)
+	.fa-angle-right
+		color: $text-muted
+
 
 .section_1
 	background-image: url('../images/section1.jpg')
