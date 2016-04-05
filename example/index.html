@@ -153,6 +153,7 @@
 
     <h2 class="pad">Mobility</h2>
     <nav class="nav-list">
+        <a data-do="go-forward" data-do="go-back" data-on="click" href="#home">Домой <i class="fa fa-home"></i></a>
         <a data-do="go-forward" data-on="click" href="#basics">Basics <i class="fa fa-chevron-right"></i></a>
         <a data-do="go-forward" data-on="click" href="#typography">Typography <i class="fa fa-plus"></i></a>
 
@@ -169,8 +170,9 @@
 
 <script id="home" type="text/html">
     <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="aside" data-on="click" href="#aside-left"><i
-                class="fa fa-bars"></i></a>
+        <a class="head-btn btn btn-default pull-left" data-do="aside" data-on="click" href="#aside-left">
+            <i class="fa fa-bars"> </i>
+        </a>
     </header>
 
     <section class="body with-head with-foot section_1">
@@ -259,23 +261,23 @@
 
 <script id="basics" type="text/html">
     <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Домой</a>
+        <a class="head-btn btn btn-default pull-left" data-do="aside" data-on="click" href="#aside-left">
+            <i class="fa fa-bars"> </i>
+        </a>
 
     </header>
 
     <section class="body with-head with-foot section_2">
         <div class="container-fluid">
             <div class="row">
-
                 <div id="heros">
-
                     <h1>Узнайте<br><span>Как мы работаем </span></h1>
 
                     <a class="arow_down scroll" href="#item01">
                         <h1><i class="fa white fa-angle-down"></i></h1>
                     </a>
-                </div> <!-- / hero -->
-
+                </div>
+                <!-- / hero -->
 
 
                 <div class="content">
@@ -315,20 +317,13 @@
                     <p>
                         После того как отчет загружен и отправлен, ваш персональный аккаунт-менеджер проследит за тем,
                         чтобы он попал в нужную инстанцию и был принят без каких-либо отсрочек и проблем.
-
                     </p>
 
-
-                </div> <!-- / content -->
-
-
+                </div>
+                <!-- / content -->
                 <a class="arow_top scroll" href="#heros">
-                   <i class="fa fa-angle-down"></i>
+                    <i class="fa fa-angle-down"></i>
                 </a>
-
-
-
-
             </div>
         </div>
 
@@ -337,40 +332,181 @@
 
 <script id="typography" type="text/html">
     <header class="head">
-        <a class="head-btn btn btn-default pull-left" data-do="go-back" data-on="click" href="#home">Back</a>
+        <a class="head-btn btn btn-default pull-left" data-do="aside" data-on="click" href="#aside-left">
+            <i class="fa fa-bars"> </i>
+        </a>
 
-        <h1 class="title">Demo - Typography</h1>
     </header>
-    <section class="body with-foot with-head pad">
-        <h1 class="pad">h1. Bootstrap heading
-            <small>Secondary text</small>
-        </h1>
-        <h2 class="pad">h2. Bootstrap heading
-            <small>Secondary text</small>
-        </h2>
-        <h3 class="pad">h3. Bootstrap heading
-            <small>Secondary text</small>
-        </h3>
-        <h4 class="pad">h4. Bootstrap heading
-            <small>Secondary text</small>
-        </h4>
-        <h5 class="pad">h5. Bootstrap heading
-            <small>Secondary text</small>
-        </h5>
-        <h6 class="pad">h6. Bootstrap heading
-            <small>Secondary text</small>
-        </h6>
+    <section class="body with-foot with-head pad section-section3">
+        <div class="col-xs-12">
+            <h1 class="white p-b-1 text-xs-center">Преимущества системы</h1>
 
-        <p class="pad">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis
-            parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+            <div class="row p-b-2">
 
-        <p class="pad">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
-            ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat
-            porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                <div class="col-xs-12  col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h5 class="card-title">Удобный круглосуточный онлайн сервис.</h5>
 
-        <p class="pad">Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta
-            gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
-            lacinia odio sem nec elit.</p>
+                            <p class="card-text">
+                                Воспользоваться системой вы можете круглосуточно
+                            </p>
+
+                            <p class="card-text">
+
+                                C любого компьютера в любой точке мира.
+                            </p>
+
+                            <p class="card-text">
+                                Без дополнительных условий (ЭЦП, облако, токен, дополнительно ПО и т.п.)
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12  col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h5 class="card-title">
+                                У Вас проверка?
+                            </h5>
+
+                            <p class="card-text">
+                                Наш специалист может присутствовать и помогать Вам на всех этапах проверки.
+
+                            </p>
+
+                            <p class="card-text">
+                                К вашим услугам – наши партнеры: юристы, налоговые оптимизаторы, финансовые
+                                консультанты.
+
+                            </p>
+
+                            <p class="card-text">
+                                У вас конфликт с проверяющим? Мы решим конфликт любой сложности!
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12  col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h5 class="card-title">Совместная ответственность.</h5>
+
+                            <p class="card-text">
+                                Как Ваш представитель, мы несем ответственность за Вашу отчетность вместе с Вами.
+                            </p>
+
+                            <p class="card-text">
+                                Поэтому мы заинтересованы в том, чтобы у Вас всё было хорошо.
+                            </p>
+
+                            <p class="card-text">
+                                При наступлении последствий предусмотрена программа компенсаций клиентам и со-оплаты
+                                штрафов.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12  col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h5 class="card-title">
+                                Отчетность во все государственные органы
+                            </h5>
+
+                            <p class="card-text">
+                                Ваша отчетность будет гарантировано доставлена в 3 государственных органа: ГНС, НСК и
+                                Социальный фонд на территории г. Бишкек .
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-xs-12  col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-block">
+
+                            <p class="card-text">
+                                Если Вы занимаетесь специальными видами деятельности (банковской, горнорудной,
+                                медицинской, образовательной и т.п.) по которой предусмотрена отдельная отчетность –
+                                просто сообщите нам, и мы специально разработаем эти формы для Вас.
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12  col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h5 class="card-title">Решение конфликтов любой сложности</h5>
+
+                            <p class="card-text">
+                                Мы поможем Вам не допустить конфликта!
+
+
+                            </p>
+
+                            <p class="card-text">
+                                Мы поможем Вам решить любой конфликт!
+
+                            </p>
+
+                            <p class="card-text">
+                                Мы минимизируем Ваши расходы и убытки, если конфликт зашел далеко!!!
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12  col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-block">
+                            <h5 class="card-title">Персональный менеджер.</h5>
+
+                            <p class="card-text">
+                                Вашим обслуживанием занимается специально закрепленный за Вами менеджер.
+
+                            </p>
+
+                            <p class="card-text">
+                                Он поможет Вам с решением любых вопросов, связанных с отчетностью в госорганы.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12  col-md-6 col-lg-3">
+                    <div class="card">
+                        <div class="card-block">
+
+                            <p class="card-text">
+                                В любой момент ваш персональный менеджер поможет получить любые необходимые документы
+                                (справки, акты сверок,
+                                счет-фактуры) без посещения госоргана.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
     </section>
 </script>
 

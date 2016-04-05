@@ -7372,25 +7372,23 @@ Superlative, Єюы№ъю ё шёяюы№чютрэшхь ┴єЄёЄЁряр,
   background-size: 1rem 1rem;
 }
 
-/* line 7, ../sass/_job.scss */
+/* line 5, ../sass/_job.scss */
 body {
   font-family: 'Roboto', sans-serif;
   position: relative;
 }
 
-/* line 12, ../sass/_job.scss */
-a {
+/* line 11, ../sass/_job.scss */
+.section_2 a {
   color: #e9a892;
   text-decoration: none;
 }
-
-/* line 17, ../sass/_job.scss */
-p {
+/* line 16, ../sass/_job.scss */
+.section_2 p {
   margin-bottom: 10px;
 }
-
-/* line 21, ../sass/_job.scss */
-#heros {
+/* line 20, ../sass/_job.scss */
+.section_2 #heros {
   background-image: linear-gradient(180deg, #7a1a91 0, #3d00d3);
   background-repeat: repeat-x;
   display: table;
@@ -7398,8 +7396,8 @@ p {
   width: 100%;
   height: 100vh;
 }
-/* line 29, ../sass/_job.scss */
-#heros h1 {
+/* line 28, ../sass/_job.scss */
+.section_2 #heros h1 {
   color: #fff;
   font-size: 90px;
   line-height: 1;
@@ -7408,14 +7406,13 @@ p {
   text-align: center;
   font-weight: 500;
 }
-/* line 38, ../sass/_job.scss */
-#heros h1 span {
+/* line 37, ../sass/_job.scss */
+.section_2 #heros h1 span {
   font-size: 40px;
   opacity: .8;
 }
-
-/* line 45, ../sass/_job.scss */
-.arow_down {
+/* line 44, ../sass/_job.scss */
+.section_2 .arow_down {
   display: block;
   position: absolute;
   bottom: 20%;
@@ -7435,13 +7432,12 @@ p {
   -moz-animation-name: bounce;
   animation-name: bounce;
 }
-
-/* line 69, ../sass/_job.scss */
-.nav {
+/* line 68, ../sass/_job.scss */
+.section_2 .nav {
   position: relative;
 }
-/* line 72, ../sass/_job.scss */
-.nav a {
+/* line 71, ../sass/_job.scss */
+.section_2 .nav a {
   position: absolute;
   display: inline-block;
   float: left;
@@ -7450,21 +7446,19 @@ p {
   font-weight: bold;
   margin-top: 20px;
 }
-/* line 80, ../sass/_job.scss */
-.nav a:hover {
+/* line 79, ../sass/_job.scss */
+.section_2 .nav a:hover {
   opacity: .6;
 }
-
-/* line 84, ../sass/_job.scss */
-.content {
+/* line 83, ../sass/_job.scss */
+.section_2 .content {
   max-width: 940px;
   width: 100%;
   margin: 0 auto;
   padding: 60px 0 140px;
 }
-
-/* line 91, ../sass/_job.scss */
-h1 {
+/* line 90, ../sass/_job.scss */
+.section_2 h1 {
   font-family: 'Dosis', sans-serif;
   color: #7a1a91;
   font-size: 40px;
@@ -7475,9 +7469,8 @@ h1 {
   font-weight: 400;
   margin-top: 5rem;
 }
-
-/* line 103, ../sass/_job.scss */
-.arow_top {
+/* line 102, ../sass/_job.scss */
+.section_2 .arow_top {
   width: 50px;
   height: 50px;
   position: fixed;
@@ -7491,13 +7484,6 @@ h1 {
   -moz-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-
-/*
-CSS ANIMATE BY Daniel Eden
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license
-Copyright (c) 2013 Daniel Eden
-*/
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
@@ -7554,18 +7540,30 @@ Copyright (c) 2013 Daniel Eden
   }
 }
 /* line 1, ../sass/_section.sass */
+.head {
+  background: transparent;
+  z-index: 5;
+  box-shadow: none;
+}
+
+/* line 5, ../sass/_section.sass */
+.with-head {
+  top: 0;
+}
+
+/* line 9, ../sass/_section.sass */
 .section_1 {
   background-image: url("../images/section1.jpg");
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 6, ../sass/_section.sass */
+/* line 14, ../sass/_section.sass */
 .section_1 .logo {
   max-width: 20rem;
   margin-top: 35%;
   margin-left: 15%;
 }
-/* line 11, ../sass/_section.sass */
+/* line 19, ../sass/_section.sass */
 .section_1 .specbutton {
   position: absolute;
   top: 42%;
@@ -7575,12 +7573,32 @@ Copyright (c) 2013 Daniel Eden
   border-radius: 100%;
   transform: translateY(-50%);
 }
-/* line 19, ../sass/_section.sass */
+/* line 27, ../sass/_section.sass */
 .section_1 form {
   margin-top: 60%;
   box-shadow: 1px 1px 5px grey;
   border-radius: 0.25rem;
   padding: 5rem 3rem 4rem;
+}
+
+/* line 34, ../sass/_section.sass */
+.section-section3 {
+  background-image: url(../images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3rem;
+}
+/* line 39, ../sass/_section.sass */
+.section-section3 .card {
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: All ease 0.8s;
+  position: relative;
+}
+/* line 43, ../sass/_section.sass */
+.section-section3 .card:hover {
+  background-color: white;
+  transform: scale(1.05);
+  z-index: 1500;
 }
 
 @media (max-width: 991px) {
